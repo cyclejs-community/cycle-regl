@@ -1,0 +1,34 @@
+{
+  "name": "cycle-regl",
+  "version": "1.0.0",
+  "description": "A Cycle.js driver for regl, a declarative and functional interface to webgl",
+  "main": "index.js",
+  "peerDependencies": {
+    "regl": "^1.3.0",
+    "xstream": "^10.8.0"
+  },
+  "devDependencies": {
+    "budo": "^10.0.3",
+    "@cycle/dom": "^17.4.0",
+    "@cycle/run": "^3.1.0",
+    "@cycle/time": "^0.8.0",
+    "@types/node": "^7.0.23",
+    "tsify": "^3.0.1",
+    "typescript": "^2.3.4"
+  },
+  "scripts": {
+    "start": "budo index.ts --live -- -p tsify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyclejs-community/cycle-regl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyclejs-community/cycle-regl/issues"
+  },
+  "homepage": "https://github.com/cyclejs-community/cycle-regl#readme"
+}
