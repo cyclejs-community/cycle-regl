@@ -1,7 +1,7 @@
 {
   "name": "cycle-regl",
   "version": "0.0.1",
-  "description": "A Cycle.js driver for regl, a declarative and functional interface to webgl",
+  "description": "A Cycle.js driver for regl, a declarative and functional interface to WebGL",
   "main": "dist/index.js",
   "files": [
     "dist/"
