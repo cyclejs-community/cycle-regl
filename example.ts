@@ -1,7 +1,7 @@
 import {run} from '@cycle/run';
 import {makeDOMDriver, div, DOMSource, VNode} from '@cycle/dom';
 import xs, {Stream} from 'xstream';
-import {makeReglView, makeReglDriver} from './regl-driver';
+import {makeReglView, makeReglDriver} from './index';
 
 const drivers = {
   Regl: makeReglDriver()
