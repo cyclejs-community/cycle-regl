@@ -17,7 +17,7 @@
     "typescript": "^2.3.4"
   },
   "scripts": {
-    "start": "budo index.ts --live -- -p tsify",
+    "start": "budo example.ts --live -- -p tsify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
